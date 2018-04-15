@@ -174,6 +174,18 @@ weapon_component_template = {
 	static_rotation = yes
 	use_ship_kill_target = no
 
+	damage = { min = 5000 max = 10000 }
+	windup = { min = 30 max = 45 }
+	total_fire_time = 180
+	range = 250
+	accuracy = 0.85
+	hull_damage = 1.25
+	shield_damage = .75
+	armor_damage = 1.5
+	tracking = 0
+	power = -500
+	cost = 500
+
 	prerequisites = { "tech_titans" }
 	component_set = "PERDITION_BEAM"
 	projectile_gfx = "perdition_beam"
@@ -200,4 +212,50 @@ weapon_component_template = {
 
 	component_set = "TITAN_LASER"
 	projectile_gfx = "titan_laser"
+}
+
+# ## Ion Cannon
+weapon_component_template = {
+	key = "PERDITION_BEAM_TITAN"
+	size = titanic
+	entity = "invisible_turret_entity"
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_perdition_beam"
+	icon_frame = 1
+
+	firing_arc = 10.0
+	min_range = 30.0
+	static_rotation = yes
+	use_ship_kill_target = no
+
+	size_restriction = {  }
+	prerequisites = { "tech_titans" }
+	component_set = "PERDITION_BEAM"
+	projectile_gfx = "perdition_beam"
+	tags = { weapon_type_energy }
+}
+
+# ## Ion Cannon
+weapon_component_template = {
+	key = "PERDITION_BEAM_ION"
+	size = titanic
+	entity = "invisible_turret_entity"
+	type = instant
+	prio_projectile = yes
+
+	icon = "GFX_ship_part_perdition_beam"
+	icon_frame = 1
+
+	firing_arc = 10.0
+	min_range = 30.0
+	static_rotation = yes
+	use_ship_kill_target = no
+
+	size_restriction = {  }
+	prerequisites = { "tech_titans" }
+	component_set = "PERDITION_BEAM"
+	projectile_gfx = "perdition_beam"
+	tags = { weapon_type_energy }
 }

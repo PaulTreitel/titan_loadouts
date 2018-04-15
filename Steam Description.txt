@@ -1,0 +1,77 @@
+Vanilla titans only have one weapon setup, and generally feel rather underpowered considering their massive cost, investment requirements, and limited number. In fact, their most useful aspect are the auras, a single component. This mod is here to fix that.
+
+[h1] Features [/h1]
+
+[list]
+
+[*] Completely revamped titan core, bow, and stern weapon setups
+
+[*] 2 Completely new researchable Titanic-size weapons
+
+[*] Extra Titan defense and auxiliary slots
+
+[*] New Titan-exclusive Bombard combat computers
+
+[/list]
+
+[h1] Details [/h1]
+
+I have shifted the titanic weapon to the core of the ship. Instead of the existing T/4L/2L setup, this mod introduces the following:
+
+Bow:
+Spinal Mount: 2XL
+Artillery: 4L
+Hangar: 4HB1M
+Picket: 2L1M6PD
+Torpedo: 4M4G
+Broadside: 8M
+
+Core:
+Titanic: T
+Spinal Mount: 3XL
+Artillery: 6L
+Hangar: 6HB2PD
+Picket: 4L8PD
+Torpedo: 6M6G
+Broadside: 12M
+
+Stern:
+Artillery: 2L
+Hangar: 4HB2S
+Broadside: 4M
+Torpedo: 4G
+Picket: 2M4PD
+
+I have also merged Perdition Beam into Ion Cannon (they are, after all, the same weapon), and categorized it as an energy weapon so that it benefits from repeatable techs. I have also added two new titanic-size weapons:
+
+[list]
+
+[*] Matter Pulverizer, an anti-hull, anti-shield kinetic weapon and T-slot successor to the Giga Cannon
+
+[*] Perfected Arc Emitter, a penetrating laser weapon and T-slot successor to the Arc Emitter
+
+[/list]
+
+To go along with Titanic weapons, I have added combat computers only available to titans: the bombard computers. They will keep the ship at even longer range (100) than the artillery computers, as well as offering a unique set of bonuses.
+
+[h1] Note [/h1]
+
+While I have done a bit of balancing the new weapons, [i] I do not guarantee that they are actually well-balanced. [/i] If you find a major balance issue or have a suggestion for what needs tuning, please let me know.
+
+[h1] Compatibility [/h1]
+
+This mod is compatible with version 2.0.2. It requires the Apocalypse DLC to access ritans.
+
+This mod is compatible with any graphical mods, as it does not touch the game's assets.
+
+This mod is compatible with Improved Space Battles (ISB).
+
+This mod is NOT compatible with NSC, which has a completely different titan setups anyway. It doesn't crash or anything, but this mod's main feature will not work and some other features (eg reactor power generation on titans) will be out of whack.
+
+[h1] Localisations [/h1]
+
+english
+
+[h1] Changelog [/h1]
+
+7 April 2018 - initial release
