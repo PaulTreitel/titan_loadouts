@@ -9,7 +9,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_matter_pulverizer"
 	icon_frame = 1
 
-	firing arc = 10.0
+	firing_arc = 10.0
 	min_range = 10.0
 	static_rotation = yes
 	use_ship_kill_target = no
@@ -44,7 +44,7 @@ weapon_component_template = {
 	icon = "GFX_ship_part_perfected_arc_emitter"
 	icon_frame = 1
 
-	firing arc = 10.0
+	firing_arc = 10.0
 	min_range = 10.0
 	static_rotation = yes
 	use_ship_kill_target = no

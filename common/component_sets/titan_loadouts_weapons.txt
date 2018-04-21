@@ -5,12 +5,6 @@ component_set = {
 	icon_frame = 1
 }
 component_set = {
-	key = "PERDITION_BEAM"
-
-	icon = "GFX_ship_part_perdition_beam"
-	icon_frame = 1
-}
-component_set = {
 	key = "PERFECTED_ARC_EMITTER"
 
 	icon = "GFX_ship_part_perfected_arc_emitter"

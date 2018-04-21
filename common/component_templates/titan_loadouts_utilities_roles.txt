@@ -1,3 +1,11 @@
+@cost1 = 10
+@cost2 = 15
+@cost3 = 20
+
+@power1 = -10
+@power2 = -15
+@power3 = -20
+
 utility_component_template = {
 	key = "COMBAT_COMPUTER_BOMBARD_BASIC"
 	size = small
