@@ -81,12 +81,12 @@
 @battleship_cost_5 = 440
 @battleship_cost_6 = 500
 
-@titan_cost_1 = 400
-@titan_cost_2 = 450
-@titan_cost_3 = 500
-@titan_cost_4 = 550
-@titan_cost_5 = 1054
-@titan_cost_6 = 1370
+@titan_cost_1 = 440
+@titan_cost_2 = 500
+@titan_cost_3 = 550
+@titan_cost_4 = 640
+@titan_cost_5 = 1330
+@titan_cost_6 = 1675
 
 @colossus_cost_1 = 0
 

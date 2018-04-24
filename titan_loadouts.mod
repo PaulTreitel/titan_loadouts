@@ -1,4 +1,4 @@
-name="Titan Weapon Loadouts"
+﻿name="Titan Weapon Loadouts"
 archive="C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\281990\\1355762627/titan_loadouts.zip"
 tags={
 	"Military"
