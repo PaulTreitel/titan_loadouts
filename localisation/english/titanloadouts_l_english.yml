@@ -1,6 +1,7 @@
 ﻿l_english:
 
  # BOWS
+ TITAN_BOW_T:0 "Titanic Bow"
  TITAN_BOW_2XL:0 "Titan Spinal Mount Bow"
  TITAN_BOW_4L:0 "Titan Artillery Bow"
  TITAN_BOW_4HB1M:0 "Titan Hangar Bow"
@@ -9,7 +10,7 @@
  TITAN_BOW_8M:0 "Titan Broadside Bow"
 
  # CORES
- TITAN_MID_T:0 "Titanic Core"
+
  TITAN_MID_3XL:0 "Titan Spinal Mount Core"
  TITAN_MID_6L:0 "Titan Artillery Core"
  TITAN_MID_6HB2PD:0 "Titan Hangar Core"
@@ -29,8 +30,12 @@
  PERDITION_BEAM:0 "Ion Cannon"
  ION_CANNON:0 "Ion Cannon"
  MATTER_PULVERIZER:0 "Matter Pulverizer"
+ MATTER_PULVERIZER_TITAN:0 "Matter Pulverizer"
+ MATTER_PULVERIZER_ION_CANNON:0 "Matter Pulverizer"
  MATTER_PULVERIZER_DESC:0 "A gigantic mass accelerator cannon that crushes the hardest metals into ammunition for maximum destruction."
  PERFECTED_ARC_EMITTER:0 "Perfected Arc Emitter"
+ PERFECTED_ARC_EMITTER_TITAN:0 "Perfected Arc Emitter"
+ PERFECTED_ARC_EMITTER_ION_CANNON:0 "Perfected Arc Emitter"
  PERFECTED_ARC_EMITTER_DESC:0 "Perfection of previous arc emitter technology has allowed for a potent wave of pure quantized energy annihilation."
 
  # TECHNOLOGIES

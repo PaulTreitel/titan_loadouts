@@ -186,6 +186,7 @@ weapon_component_template = {
 	power = -500
 	cost = 500
 
+	size_restriction = { titan }
 	prerequisites = { "tech_titans" }
 	component_set = "PERDITION_BEAM"
 	projectile_gfx = "perdition_beam"
@@ -230,7 +231,7 @@ weapon_component_template = {
 	static_rotation = yes
 	use_ship_kill_target = no
 
-	size_restriction = {  }
+	size_restriction = { cruiser }
 	prerequisites = { "tech_titans" }
 	component_set = "PERDITION_BEAM"
 	projectile_gfx = "perdition_beam"
@@ -253,7 +254,7 @@ weapon_component_template = {
 	static_rotation = yes
 	use_ship_kill_target = no
 
-	size_restriction = {  }
+	size_restriction = { ion_cannon }
 	prerequisites = { "tech_titans" }
 	component_set = "PERDITION_BEAM"
 	projectile_gfx = "perdition_beam"
