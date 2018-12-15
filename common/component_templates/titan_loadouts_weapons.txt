@@ -33,6 +33,25 @@ weapon_component_template = {
 	projectile_gfx = "adv_kinetic_artillery"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery }
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titanic_t6_cost
+			rare_crystals = @titanic_t6_rare
+		}
+		upkeep = {
+			energy = @titanic_t6_upkeep_energy
+			alloys = @titanic_t6_upkeep_alloys
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = rare_crystals value <= 0 }
+		}
+	}
 }
 
 # Ion Cannon
@@ -68,6 +87,25 @@ weapon_component_template = {
 	projectile_gfx = "adv_kinetic_artillery"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery }
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titanic_t6_cost
+			rare_crystals = @titanic_t6_rare
+		}
+		upkeep = {
+			energy = @titanic_t6_upkeep_energy
+			alloys = @titanic_t6_upkeep_alloys
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = rare_crystals value <= 0 }
+		}
+	}
 }
 
 
@@ -105,6 +143,25 @@ weapon_component_template = {
 	projectile_gfx = "focused_arc_emitter"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titanic_t6_cost
+			rare_crystals = @titanic_t6_rare
+		}
+		upkeep = {
+			energy = @titanic_t6_upkeep_energy
+			alloys = @titanic_t6_upkeep_alloys
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = rare_crystals value <= 0 }
+		}
+	}
 }
 
 # Ion Cannon
@@ -139,4 +196,23 @@ weapon_component_template = {
 	projectile_gfx = "focused_arc_emitter"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_artillery }
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titanic_t6_cost
+			rare_crystals = @titanic_t6_rare
+		}
+		upkeep = {
+			energy = @titanic_t6_upkeep_energy
+			alloys = @titanic_t6_upkeep_alloys
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = rare_crystals value <= 0 }
+		}
+	}
 }

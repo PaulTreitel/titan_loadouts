@@ -1,6 +1,9 @@
+############################
 # created by user Blackharr
+############################
 
-# Sometimes in the section templates, the component name and locatorname do not match sizes (ie one is medium, the other large). This is because right now the titan only has locations for T/4L/2L weapons, so I have tried to make as many of the weapons show as possible by putting them on the L graphical slots
+@section_cost = 160
+
 
 # BOW
 
@@ -22,7 +25,12 @@ ship_section_template = {
 
 	large_utility_slots = 9
 
-	cost = 400
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
 }
 
 # 2XL
@@ -50,7 +58,12 @@ ship_section_template = {
 
 	large_utility_slots = 9
 
-	cost = 400
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
 }
 
 # 4L
@@ -88,7 +101,12 @@ ship_section_template = {
 
 	large_utility_slots = 9
 
-	cost = 400
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
 }
 
 # 4HB1M
@@ -147,7 +165,12 @@ ship_section_template = {
 
 	large_utility_slots = 9
 
-	cost = 400
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
 }
 
 # 2L1M6PD
@@ -215,7 +238,12 @@ ship_section_template = {
 
 	large_utility_slots = 9
 
-	cost = 400
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
 }
 
 # 4M4G
@@ -277,7 +305,12 @@ ship_section_template = {
 
 	large_utility_slots = 9
 
-	cost = 400
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
 }
 
 # 8M
@@ -339,7 +372,12 @@ ship_section_template = {
 
 	large_utility_slots = 9
 
-	cost = 400
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
 }
 
 
@@ -377,7 +415,12 @@ ship_section_template = {
 
 	large_utility_slots = 9
 
-	cost = 400
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
 }
 
 # 6L
@@ -427,7 +470,12 @@ ship_section_template = {
 
 	large_utility_slots = 9
 
-	cost = 400
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
 }
 
 # 6HB2PD
@@ -495,7 +543,12 @@ ship_section_template = {
 
 	large_utility_slots = 9
 
-	cost = 400
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
 }
 
 # 4L8PD
@@ -581,7 +634,12 @@ ship_section_template = {
 
 	large_utility_slots = 9
 
-	cost = 400
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
 }
 
 # 6M6G
@@ -667,7 +725,12 @@ ship_section_template = {
 
 	large_utility_slots = 9
 
-	cost = 400
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
 }
 
 # 12M
@@ -753,7 +816,12 @@ ship_section_template = {
 
 	large_utility_slots = 9
 
-	cost = 400
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
 }
 
 # STERN
@@ -782,7 +850,12 @@ ship_section_template = {
 
 	aux_utility_slots = 6
 
-	cost = 400
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
 }
 
 # 4M
@@ -819,7 +892,12 @@ ship_section_template = {
  	}
 	aux_utility_slots = 6
 
-	cost = 400
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
 }
 
 # 2HB2S
@@ -859,7 +937,12 @@ ship_section_template = {
 
 	aux_utility_slots = 6
 
-	cost = 400
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
 }
 
 # 4G
@@ -897,7 +980,12 @@ ship_section_template = {
 
 	aux_utility_slots = 6
 
-	cost = 400
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
 }
 
 # 2M4PD
@@ -947,5 +1035,10 @@ ship_section_template = {
 
 	aux_utility_slots = 6
 
-	cost = 400
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
 }

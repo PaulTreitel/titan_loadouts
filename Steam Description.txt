@@ -75,3 +75,7 @@ english
 [h1] Changelog [/h1]
 
 7 April 2018 - initial release
+
+28 May 2018 - Moved titanic slot to the bow of the ship, as in vanilla
+
+15 December 2018 - updated for 2.2

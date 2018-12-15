@@ -1,10 +1,10 @@
-@cost1 = 10
-@cost2 = 15
+@cost1 = 5
+@cost2 = 10
 @cost3 = 20
 
 @power1 = -10
 @power2 = -15
-@power3 = -20
+@power3 = -25
 
 utility_component_template = {
 	key = "COMBAT_COMPUTER_BOMBARD_BASIC"
@@ -12,7 +12,12 @@ utility_component_template = {
 	icon = "GFX_ship_part_computer_artillery_basic"
 	icon_frame = 1
 	power = @power1
-	cost = @cost1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost1
+		}
+	}
 	class_restriction = { shipclass_military }
 	size_restriction = { titan }
 	component_set = "combat_computers"
@@ -37,7 +42,12 @@ utility_component_template = {
 	icon = "GFX_ship_part_computer_artillery_advanced"
 	icon_frame = 1
 	power = @power2
-	cost = @cost2
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost2
+		}
+	}
 	class_restriction = { shipclass_military }
 	size_restriction = { titan }
 	component_set = "combat_computers"
@@ -62,7 +72,12 @@ utility_component_template = {
 	icon = "GFX_ship_part_computer_artillery_sapient"
 	icon_frame = 1
 	power = @power3
-	cost = @cost3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost3
+		}
+	}
 	class_restriction = { shipclass_military }
 	size_restriction = { titan }
 	component_set = "combat_computers"
@@ -97,7 +112,12 @@ utility_component_template = {
 	icon = "GFX_ship_part_computer_artillery_sapient"
 	icon_frame = 1
 	power = @power3
-	cost = @cost3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost3
+		}
+	}
 	class_restriction = { shipclass_military }
 	size_restriction = { titan }
 	component_set = "combat_computers"
@@ -121,7 +141,12 @@ utility_component_template = {
 	icon = "GFX_ship_part_computer_artillery_precog"
 	icon_frame = 1
 	power = @power3
-	cost = @cost3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @cost3
+		}
+	}
 	class_restriction = { shipclass_military }
 	size_restriction = { titan }
 	component_set = "combat_computers"
