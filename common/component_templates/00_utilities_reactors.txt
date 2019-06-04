@@ -473,7 +473,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_reactor_2"
 	icon_frame = 1
 	power = @starbase_power
-	cost = 0
 
 	prerequisites = { "tech_fusion_power" }
 	component_set = "power_core"
@@ -669,7 +668,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_reactor_3"
 	icon_frame = 1
 	power = @starbase_power
-	cost = 0
 
 	prerequisites = { "tech_cold_fusion_power" }
 	component_set = "power_core"
@@ -865,7 +863,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_reactor_4"
 	icon_frame = 1
 	power = @starbase_power
-	cost = 0
 
 	prerequisites = { "tech_antimatter_power" }
 	component_set = "power_core"
@@ -1099,7 +1096,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_reactor_5"
 	icon_frame = 1
 	power = @starbase_power
-	cost = 0
 
 	prerequisites = { "tech_zero_point_power" }
 	component_set = "power_core"
