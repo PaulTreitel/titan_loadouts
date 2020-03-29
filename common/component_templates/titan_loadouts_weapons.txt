@@ -12,7 +12,6 @@ weapon_component_template = {
 
 	firing_arc = 10.0
 	min_range = 10.0
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	damage = { min = 4600 max = 11000 }
@@ -25,7 +24,6 @@ weapon_component_template = {
 	armor_damage = 0.75
 	tracking = 0
 	power = -500
-	cost = 500
 
 	size_restriction = { titan }
 	prerequisites = { "tech_matter_pulverizer" }
@@ -67,7 +65,6 @@ weapon_component_template = {
 
 	firing_arc = 10.0
 	min_range = 10.0
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	damage = { min = 4600 max = 11000 }
@@ -79,7 +76,6 @@ weapon_component_template = {
 	shield_damage = 1.25
 	armor_damage = 0.75
 	tracking = 0
-	cost = 500
 
 	size_restriction = { ion_cannon }
 	prerequisites = { "tech_matter_pulverizer" }
@@ -123,7 +119,6 @@ weapon_component_template = {
 
 	firing_arc = 10.0
 	min_range = 10.0
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	damage = { min = 4000 max = 6000 }
@@ -135,7 +130,6 @@ weapon_component_template = {
 	armor_penetration = 1.00
 	tracking = 0
 	power = -500
-	cost = 500
 
 	size_restriction = { titan }
 	prerequisites = { "tech_perfected_arc_emitter" }
@@ -177,7 +171,6 @@ weapon_component_template = {
 
 	firing_arc = 10.0
 	min_range = 10.0
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	damage = { min = 4000 max = 6000 }
@@ -188,7 +181,6 @@ weapon_component_template = {
 	shield_penetration = 1.00
 	armor_penetration = 1.00
 	tracking = 0
-	cost = 500
 
 	size_restriction = { ion_cannon }
 	prerequisites = { "tech_perfected_arc_emitter" }

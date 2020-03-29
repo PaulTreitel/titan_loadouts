@@ -52,7 +52,6 @@ tech_matter_pulverizer = {
 	cost = @tier5cost2
 	tier = 5
 	category = { propulsion }
-	ai_update_type = military
 	prerequisites = { "tech_mass_accelerator_2" "tech_titans" }
 	weight = @tier5weight2
 
@@ -73,6 +72,7 @@ tech_matter_pulverizer = {
 				area = physics
 				has_trait = "leader_trait_expertise_propulsion"
 			}
+		}
 	}
 
 	ai_weight = {
@@ -100,7 +100,6 @@ tech_perfected_arc_emitter = {
 	cost = @tier5cost2
 	tier = 5
 	category = { particles }
-	ai_update_type = military
 	prerequisites = { "tech_arc_emitter_2" "tech_titans" }
 	weight = @tier5weight2
 
@@ -121,6 +120,7 @@ tech_perfected_arc_emitter = {
 				area = physics
 				has_trait = "leader_trait_expertise_propulsion"
 			}
+		}
 	}
 
 	ai_weight = {

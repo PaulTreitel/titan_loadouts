@@ -14,7 +14,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10.0
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "tech_energy_lance_1" }
@@ -57,7 +56,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10.0
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "tech_energy_lance_2" }
@@ -103,7 +101,6 @@ weapon_component_template = {
 
 	firing_arc = 35.0
 	min_range = 10.0
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "tech_arc_emitter_1" }
@@ -146,7 +143,6 @@ weapon_component_template = {
 
 	firing_arc = 35.0
 	min_range = 10.0
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "tech_arc_emitter_2" }
@@ -194,7 +190,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10.0
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "tech_mass_accelerator_1" }
@@ -238,7 +233,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 10.0
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	prerequisites = { "tech_mass_accelerator_2" }
@@ -285,7 +279,6 @@ weapon_component_template = {
 
 	firing_arc = 10.0
 	min_range = 30.0
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	size_restriction = { cruiser }
@@ -327,7 +320,6 @@ weapon_component_template = {
 
 	firing_arc = 10.0
 	min_range = 30.0
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	damage = { min = 5000 max = 10000 }
@@ -340,7 +332,6 @@ weapon_component_template = {
 	armor_damage = 1.5
 	tracking = 0
 	power = -500
-	cost = 500
 
 	size_restriction = { titan }
 	prerequisites = { "tech_titans" }
@@ -383,7 +374,6 @@ weapon_component_template = {
 
 	firing_arc = 25.0
 	min_range = 30.0
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	component_set = "TITAN_LASER"
@@ -403,7 +393,6 @@ weapon_component_template = {
 
 	firing_arc = 10.0
 	min_range = 30.0
-	static_rotation = yes
 	use_ship_kill_target = no
 
 	size_restriction = { ion_cannon }
