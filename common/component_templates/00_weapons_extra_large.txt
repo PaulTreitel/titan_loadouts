@@ -6,7 +6,6 @@
 weapon_component_template = {
 	key = "ENERGY_LANCE_1"
 	size = extra_large
-	entity = "invisible_turret_entity"
 	type = instant
 
 	icon = "GFX_ship_part_energy_lance_1"
@@ -37,10 +36,6 @@ weapon_component_template = {
 
 	ai_weight = {
 		weight = 1
-		modifier = {
-			factor = 0.0
-			has_monthly_income = { resource = rare_crystals value <= 0 }
-		}
 	}
 }
 

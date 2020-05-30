@@ -60,7 +60,7 @@ While I have done a bit of balancing the new weapons, [i] I do not guarantee tha
 
 [h1] Compatibility [/h1]
 
-This mod is compatible with version 2.6.*. It requires the Apocalypse DLC to access ritans.
+This mod is compatible with version 2.7.*. It requires the Apocalypse DLC to access ritans.
 
 This mod is compatible with any graphical mods, as it does not touch the game's assets.
 
@@ -81,3 +81,5 @@ English
 15 December 2018 - updated for 2.2
 
 28 March 2020 - updated for 2.6
+
+30 May 2020 - updated for 2.7
