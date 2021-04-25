@@ -85,3 +85,5 @@ English
 30 May 2020 - updated for 2.7
 
 7 November 2020 - updated for 2.8
+
+25 April 2021 - updated for 3.0
